@@ -1,0 +1,17 @@
+{
+  "name": "zod-object-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "postinstall": "find ./packages  -name \"package.json\" -maxdepth 2 -execdir npm install \\;"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.24",
+    "@types/node": "16.4.3"
+  },
+  "dependencies": {
+    "jest": "27.0.6",
+    "ts-jest": "27.0.4",
+    "typescript": "4.3.5"
+  }
+}
